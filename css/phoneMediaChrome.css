@@ -1,0 +1,67 @@
+@media all and (max-width:768px){
+    .coreText h1, .preciseText h1 {
+    
+    letter-spacing: 0px;
+}
+    .infograficText h1 {
+    letter-spacing: 0px;
+}
+    .boardTopText h1 {
+    letter-spacing: 0px;
+}
+     .coreText h5,
+    .preciseText h5 {
+       
+        letter-spacing: 0px;
+    }
+     .infograficText p {
+            letter-spacing: 0px;
+    }
+     .preciseText p {
+    letter-spacing: 0px;
+}
+}
+@media all and (max-width: 425px) {
+    .brightumLogoBox {
+        
+        padding-left: 4vw;
+    }
+    .coreImgBig {
+    margin-top: 33vw!important;
+    left: 17vw;
+}
+      .coreImgBig {
+        width: 76.9vw;
+        height: 61.8vw;
+        position: absolute;
+        margin-top: 31vw;
+        left: 17vw;
+    }
+    .infoInfText p {
+    font-size: 3.7vw;
+    width: 100vw;
+    line-height: 5vw;
+    letter-spacing: 0px;
+    left: -4vw;
+    top: 1.9vw;
+    position: relative;
+    color: #828282;
+}
+
+
+}
+@media all and  (max-width:375px)
+{
+.coreImgBig {
+    margin-top: 33vw;
+    left: 17vw;
+}
+    .brightumLogoBox .tree {
+    
+    margin: 0 0 0 3vw;
+}
+}
+@media all and (max-width:320px)
+{
+
+}

@@ -1,0 +1,1108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    
+/*
+    background-image: url(../imgScience/new-design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.brightum {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../imgScience/Main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+      padding: 6.5vw 3.32vw;
+    margin-top: 2vw;
+}
+
+.brightumImg img {
+    width: 34.7vw;
+    height: 34.75vw;
+    position: relative;
+}
+
+.brightumLeftBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5.28vw;
+    left: 5.5vw;
+}
+
+.brightumText p {
+    color: #646464;
+    font-size: 1.5vw;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+.mobHr
+{
+    display: none;
+}
+ .hrDesc
+    {
+        background-color: rgba(0, 162, 232, 1);
+    }
+.brightumImgMob
+{
+  display: none;  
+}
+.brightumText img {
+    width: 9.813vw;
+    height: 3vw;
+    position: relative;
+    top: 0.313vw;
+    
+}
+
+.brightumText h6 {
+    color: #818181;
+    font-size: 1.3vw;
+    text-align: right;
+    padding: 0.5vw 0;
+    font-weight: bold;
+    letter-spacing: 0.15px;
+}
+
+.brightumLogoBox {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 6vw;
+    left: -0.9vw;
+}
+
+.brightumLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brightumLogo img {
+    width: 11.2vw;
+    height: 11vw;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.brightumLogo .animateBox {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    border: 1px solid dimgray;
+    top: 0.4vw;
+    border-radius: 50%;
+    animation: pulse-2 4s infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: pulse-2 4s infinite;
+    -webkit-animation-iteration-count: infinite;
+    background-color: rgba(94, 94, 94, 07);
+    z-index: 0;
+}
+
+.one .animateBox {
+    animation-delay: 1s;
+    top: 0.5vw;
+
+}
+
+.two .animateBox {
+    top: 0.5vw;
+    animation-delay: 2s;
+}
+
+.tree .animateBox {
+    top: 0.55vw;
+    animation-delay: 3s;
+}
+
+@keyframes pulse-2 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3);
+        opacity: 0;
+    }
+
+}
+
+@keyframes animateImg {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+
+    }
+
+    60% {
+        transform: scale(1.25);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.25);
+        /*    transform: scale(1);*/
+        opacity: 0.3
+
+    }
+}
+
+.brightumLogoBox .two {
+    position: relative;
+    top: 2.03vw;
+    left: 2.5vw;
+}
+
+.brightumLogoBox .tree {
+    position: relative;
+    top: 5.8vw;
+    left: 3.2vw;
+}
+
+.brightumLogo p {
+    color: #4f4f4f;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 10px 2.2vw 0;
+    letter-spacing: 0px;
+}
+
+.brightumLogo p:last-of-type {
+    position: relative;
+    top: -0.3vw;
+    left: 0.463vw;
+    padding: 0px 2.2vw 0;
+}
+
+.brightumLogoBox .two p:first-of-type {
+    position: relative;
+    left: 0.5vw;
+}
+
+.brightumLogoBox .two p:last-of-type {
+    position: relative;
+    top: -0.2vw;
+    left: -0.1vw;
+}
+
+.brightumLogoBox .tree p:first-of-type {
+    position: relative;
+    top: 0;
+    left: 0.5vw;
+}
+
+.brightumLogoBox .tree p:last-of-type {
+    position: relative;
+    left: -0.6vw;
+}
+
+.brightumCore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 6.3vw 6.7vw 0;
+}
+
+.coreText {
+    display: flex;
+    flex-direction: column;
+}
+
+.coreText h1,
+.preciseText h1,
+.boardBottomText h1 {
+    font-size: 2.315vw;
+    font-weight: bold;
+}
+
+.coreText h5,
+.preciseText h5 {
+    color: rgba(75, 75, 75);
+    font-size: 1.6vw;
+    padding-left: 0.2vw;
+}
+
+.coreText p,
+.preciseText p,
+.boardBottomText p {
+    color: rgba(80, 80, 80, 1);
+    font-size: 1.3vw;
+    width: 40vw;
+    position: relative;
+    top: 0.8vw;
+    left: 0.2vw;
+    line-height: 1.82vw;
+    letter-spacing: 0.3px;
+}
+
+.coreText p:last-of-type {
+    top: 2.7vw;
+    line-height: 1.8vw;
+    /*    width: 37.5vw;*/
+
+}
+
+.coreImg {
+    position: relative;
+    left: 2vw;
+    top: 2vw;
+}
+
+hr {
+    width: 13.4vw;
+    height: 0.313vw;
+    background-color: rgba(153, 201, 248, 1);
+    position: relative;
+    left: 0.3vw;
+    margin: 1.5vw 0;
+    border: none;
+    outline: none;
+    z-index: 10;
+}
+
+.coreImg p {
+    color: rgba(80, 80, 80, 1);
+    position: relative;
+    font-size: 1.1vw;
+    top: 6vw;
+    left: -2vw;
+    width: 13.63vw;
+}
+
+.coreImg p:first-of-type {
+    top: 0.4vw;
+    left: 18vw;
+}
+
+.coreImg p:last-of-type {
+    top: 18.2vw;
+    left: 21.1vw;
+}
+
+.coreImg img {
+    position: relative;
+    top: -11.4vw;
+    left: 0.3vw;
+    width: 36vw;
+    height: 28.688vw;
+}
+
+.coreImg .dotOne {
+    top: 0.6vw;
+    left: 23.45vw;
+    position: relative;
+    width: 1.365vw;
+    height: 1.365vw;
+}
+
+.coreImg .dotTwo {
+    top: 6.4vw;
+    left: 3.6vw;
+    position: relative;
+    width: 1.365vw;
+    height: 1.365vw;
+}
+
+.coreImg .dotTree {
+    top: -15.5vw;
+        left: 24.1vw;
+    position: relative;
+    width: 1.365vw;
+    height: 1.365vw;
+}
+
+.precise {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding: 8.8vw 6.7vw 14.5vw;
+    background-image: url(../imgScience/bg_precise.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textMobVer
+{
+    display: none;
+}
+.preciseText,
+.preciseImg,
+.iconText {
+    display: flex;
+    flex-direction: column;
+}
+
+.preciseText h5 {
+    padding: 0.2vw 0.2vw 0.2vw;
+    font-size: 1.5vw;
+}
+
+.preciseText p {
+    top: 0vw;
+    width: 44vw;
+}
+
+.preciseImg {
+    position: relative;
+    top: -0.9vw;
+    left: 8.5vw;
+}
+
+.preciseLine {
+    position: absolute;
+    width: 7.57vw;
+    height: 26.2vw;
+    margin: 4.5vw 4.6vw;
+}
+
+.preciseIcon {
+    display: flex;
+    flex-direction: row;
+    margin: 0.1vw 0vw 2.7vw;
+
+}
+
+.preciseIcon:last-of-type {
+
+}
+
+.preciseIcon img {
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 10;
+
+}
+
+.preciseIconI {
+    width: 10vw;
+    height: 9.7vw;
+}
+
+.iconText {
+    position: relative;
+    top: 2.9vw;
+    left: 1vw;
+}
+
+.preciseIcon .one {
+    position: relative;
+    top: 3.2vw;
+}
+
+.preciseIcon .tree {
+    position: relative;
+    top: 3.7vw;
+}
+
+.iconText h5 {
+    color: #151515;
+    font-size: 1.24vw;
+    letter-spacing: 0.5px;
+}
+
+.iconText p {
+    color: #535454;
+    font-size: 1.2vw;
+    position: relative;
+    left: 0.2vw;
+    top: -0.2vw;
+}
+
+.dot {
+    position: relative;
+    width: 1.365vw;
+    height: 1.365vw;
+    z-index: 10;
+    border: 1px solid rgba(0, 178, 239, 0.3);
+    border-radius: 50%;
+    left: 1vw;
+
+}
+
+.dotO {
+    top: 4.15vw;
+    left: 1.1vw;
+}
+
+.dotT {
+    top: 3.9vw;
+}
+
+.dotTr {
+    top: 4.3vw;
+}
+
+.infografic {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0.2vw 0 8vw;
+    top: -3.8vw;
+}
+
+.infograficOne {
+    padding: 4.5vw 0 8vw;
+}
+
+.infograficImg,
+.infoInfText,
+.blockTreeImg .infograficLeft .l,
+.boardTopIcon {
+    display: flex;
+    flex-direction: row;
+}
+
+.infograficInf,
+.infoInfText div,
+.infograficLeft,
+.board,
+.boardBottomText {
+    display: flex;
+    flex-direction: column;
+}
+
+.infograficText {
+    padding: 0 6.7vw;
+}
+
+.infograficText h1 {
+    color: #000;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.infograficText p {
+    color: rgba(141, 139, 139, 1);
+    font-size: 1.6vw;
+    position: relative;
+    left: 0.3vw;
+    top: 1.4vw;
+    width: 49vw;
+    line-height: 1.8vw
+}
+
+.infograficInfImg {
+    position: relative;
+    padding: 0.6vw 8.8vw;
+    margin-top: 11vw;
+}
+
+.infInfBg {
+    position: absolute;
+    width: 66.38vw;
+    height: 15.94vw;
+    margin-top: 11vw;
+}
+.infInfBgMob, .mobVerBr, .mobVer
+{
+    display: none;
+}
+
+
+.infograficInfImg img {
+    width: 17.688vw;
+    height: 17.688vw;
+    position: relative;
+    left: -0.45vw;
+    top: -1.4vw;
+}
+
+.infograficInfImg img:first-of-type {
+    left: 0.05vw;
+    top: -1vw;
+}
+.infograficInfImg img:last-of-type {
+    left: -1.1vw;
+}
+
+.infoInfText {
+    position: relative;
+    top: -2vw;
+    padding: 0 8.8vw 0 9.6vw;
+}
+
+.infoInfText div h5 {
+    font-size: 1.385vw;
+    font-weight: bold;
+    color: #0c0c0c;
+    position: relative;
+    left: -0.1vw;
+}
+
+.infoInfText p {
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: #5a5a5a;
+    width: 19.25vw;
+    line-height: 1.6vw;
+    letter-spacing: 0.1px;
+}
+
+.infograficLeft {
+    position: relative;
+    margin-top: 5.6vw;
+    left: -4.1vw;
+}
+
+.infograficLeft h1 {
+    color: #000000;
+    font-size: 1.07vw;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
+.infograficLeft label {
+    color: #000000;
+    font-size: 1.15vw;
+    position: relative;
+    left: 2.1vw;
+    top: 0.3vw;
+}
+
+.infograficLeft img {
+    position: relative;
+    top: 0.9vw;
+    left: -3.8vw;
+    /*    margin: 0 0 0.5vw;*/
+}
+
+.infoSizeImg {
+    width: 22.73vw;
+    height: 22.73vw;
+}
+
+.infograficLeft div img {
+    position: relative;
+    top: 1.3vw;
+    left: 1.7vw;
+    height: 2.7vw;
+}
+
+.preciseComposition {
+    top: -4.5vw;
+    padding: 0.2vw 0 0.2vw;
+
+}
+
+.blockTwo p {
+    top: 1.4vw;
+    line-height: 1.87vw;
+
+}
+
+.blockTwoImg .infograficInfImg {
+    margin-top: 9.7vw;
+
+}
+
+.blockTwoImg .infInfBg {
+    margin-top: 9.9vw;
+}
+
+.blockTwoImg .infograficInfImg img:first-of-type {
+    left: 2.7vw;
+}
+
+.blockTwoImg .infograficInfImg img:last-of-type {
+    left: 8vw;
+    top: -0.9vw;
+}
+
+.blockTwoImg .infoInfText {
+    left: 2.4vw;
+    top: -1.1vw;
+}
+
+.blockTwoImg .infoInfText div {
+    margin: -1.8vw 5vw 0 0;
+}
+
+.blockTwoImg .infoInfText p {
+    position: relative;
+    left: -0.2vw;
+    top: 0.15vw;
+}
+
+.blockTwoImg .infoInfText .h {
+    top: 0.3vw;
+}
+
+.blockTwoImg .infograficLeft {
+    top: -2.9vw;
+    left: 5.1vw;
+}
+
+.blockTwoImg .infograficLeft h1 {
+    text-align: center;
+    position: relative;
+    left: -4vw;
+    top: 0.3vw;
+}
+
+.blockTwoImg .infograficLeft img {
+    top: 1.4vw;
+}
+
+.blockTwoImg .infograficLeft div {
+    margin: 0.44vw 0 0 0.3vw;
+}
+
+.blockTwoImg .infograficLeft .l {
+    top: -0.3vw;
+    left: 0.25vw;
+    position: relative;
+}
+
+.blockTwoImg .l label {
+    left: 2.5vw;
+
+}
+
+.infograficTree {
+    top: -2.5vw;
+    padding: 4.2vw 0 0vw;
+}
+
+.blockTree p {
+    top: 0.7vw;
+    width: 51vw;
+    line-height: 1.87vw;
+}
+
+.blockTree h1 {
+    top: -0.6vw;
+    position: relative
+}
+
+.blockTree {
+    padding: 2vw 6.7vw 0;
+}
+
+.blockTreeImg {
+    margin-top: -2.1vw;
+}
+
+.blockTreeImg .infograficInfImg img:first-of-type {
+    left: 2.7vw;
+}
+
+.blockTreeImg .infograficInfImg img:last-of-type {
+    left: 8vw;
+}
+
+.blockTreeImg .infograficLeft img {
+    top: 2.3vw;
+}
+
+.blockTreeImg .infoInfText {
+    left: 1.9vw;
+    top: -0.4vw;
+}
+
+.blockTreeImg .infoInfText p {
+    left: 0.3vw;
+}
+
+.blockTreeImg .infoInfText div {
+    margin: -2.3vw 4.3vw 0 0;
+}
+
+.blockTreeImg .infoInfText div h5 {
+    left: 0.1vw;
+}
+
+.blockTreeImg .infoInfText div:last-of-type {
+    margin-left: 0.7vw;
+}
+
+.blockTreeImg .infoInfText div:last-of-type p {
+    width: 20vw;
+}
+
+.blockTreeImg .infograficLeft {
+    top: -2.1vw;
+}
+
+.blockTreeImg .infograficLeft h1 {
+    left: -3.5vw;
+}
+
+.blockTreeImg .infograficLeft label {
+    left: 2.2vw;
+    top: 1.1vw;
+}
+
+.blockTreeImg .infograficLeft .l {
+    top: 1vw;
+
+}
+
+.blockTreeImg .infograficLeft p {
+    color: #000000;
+    position: relative;
+    left: 2.8vw;
+    top: 1.1vw;
+    font-size: 1.15vw;
+
+}
+
+.blockTreeImg .l img {
+    position: relative;
+    top: 1.5vw;
+}
+
+.boardT {
+    width: 100vw;
+    height: 35vw;
+    justify-content: center;
+    display: flex;
+    background-image: url(../imgScience/bgCard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 2vw;
+}
+
+.boardTop {
+    width: 79.1vw;
+    height: 22.35vw;
+    background-image: url(../imgScience/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 10vw;
+    padding: 5.7vw 5.5vw 0;
+    justify-content: space-between;
+}
+
+.boardTop h1 {
+    font-size: 2.713vw;
+    font-weight: bold;
+}
+
+.boardTop p {
+    font-size: 1.5vw;
+    color: #505050;
+    font-weight: bold;
+    font-style: italic;
+    width: 28.75vw;
+    margin: 2.7vw 0 0 0.6vw;
+    line-height: 1.2;
+}
+
+.boardTopText {
+    padding: 1.7vw 0;
+}
+
+.boardTopText img {
+    width: 13.75vw;
+    height: 3.44vw;
+}
+
+.boardTopIcon {
+    justify-content: space-between;
+}
+
+.boardTopIcon img {
+    width: 10.82vw;
+    height: 11vw;
+}
+
+.boardBottom {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #eaf5fb;
+    padding: 6.5vw 0 0 0vw;
+}
+
+.boardBottomText {
+    margin-left: 5vw;
+}
+
+.boardBottomText p:first-of-type {
+    left: 0.2vw;
+    top: -0.1vw;
+    width: 38vw;
+    margin: 0 0 3.5vw;
+    font-size: 1.49vw;
+}
+
+.boardBottomText label {
+    font-size: 1.49vw;
+    color: rgba(34, 177, 76, 1);
+    line-height: 2.25;
+    width: 44vw;
+}
+
+.boardBottomText p:last-of-type {
+    margin-top: 2.8vw;
+    font-size: 1.49vw;
+    color: #000;
+    width: 44vw;
+}
+
+.board3D img {
+    width: 43vw;
+    height: 35.75vw;
+}
+
+.Label1 img,
+.Label2 img,
+.Label3 img {
+    width: 1.6vw;
+    height: 1.6vw;
+    position: relative;
+    top: 0.2vw;
+    margin: 0 0.6vw 0 0;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.labelLine
+{
+    position:relative;
+    left:2.5vw;
+}
+    
+.shine {
+    -webkit-animation: color_change 0.7s infinite alternate;
+    -moz-animation: color_change 0.7s infinite alternate;
+    -ms-animation: color_change 0.7s infinite alternate;
+    -o-animation: color_change 0.7s infinite alternate;
+    animation: color_change 0.7s alternate;
+    animation-iteration-count: 5;
+}
+
+@-webkit-keyframes color_change {
+    from {
+        color: rgba(80, 80, 80, 1);
+    }
+
+    to {
+        color: rgba(34, 177, 76, 1);
+    }
+}
+
+@-moz-keyframes color_change {
+    from {
+        color: rgba(80, 80, 80, 1);
+    }
+
+    to {
+        color: rgba(34, 177, 76, 1);
+    }
+}
+
+@-ms-keyframes color_change {
+    from {
+        color: rgba(80, 80, 80, 1);
+    }
+
+    to {
+        color: rgba(34, 177, 76, 1);
+    }
+}
+
+@-o-keyframes color_change {
+    from {
+        color: rgba(80, 80, 80, 1);
+    }
+
+    to {
+        color: rgba(34, 177, 76, 1);
+    }
+}
+
+@keyframes color_change {
+    from {
+        color: rgba(80, 80, 80, 1);
+    }
+
+    to {
+        color: rgba(34, 177, 76, 1);
+    }
+}
+
+.dot {
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(0.7, 0.7);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    90% {
+        opacity: 0.1;
+    }
+
+    100% {
+        transform: scale(0.7, 0.7);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        -webkit-transform: scale(0.7, 0.7);
+        opacity: 1;
+    }
+
+    50% {
+        -webkit-transform: scale(1.2, 1.2);
+    }
+
+    90% {
+        opacity: 0.1;
+    }
+
+    100% {
+        -webkit-transform: scale(0.7, 0.7);
+        opacity: 0;
+    }
+}
+ .mobRadial
+{
+    display: none;
+}
+.radial {
+    background-color: #eaf5fb;
+    height: 43vw;
+
+}
+
+.radial-progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #eaf5fb;
+    padding-top: 8vw;
+}
+
+.radial-progress p {
+    width: 14.13vw;
+    color: #000;
+    font-size: 1.3vw;
+    text-align: center;
+    padding: 1.2vw 0;
+}
+
+.radial-progress svg {
+    margin: 0.1vw 0.2vw;
+}
+
+svg.radial-progress {
+    height: auto;
+    max-width: 14.38vw;
+    padding: 0 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+}
+
+svg.radial-progress circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129;
+    /* Circumference */
+    stroke-width: 10;
+}
+
+svg.radial-progress circle.incomplete {
+    /*    stroke: rgba(195, 195, 195, 1);*/
+    opacity: 0.25;
+}
+
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129;
+    /* Circumference */
+}
+
+svg.radial-progress text {
+    fill: #000;
+    /*    font: 400 1em/1 'Oswald', sans-serif;*/
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-anchor: middle;
+    margin-top: 100px;
+    transform: matrix(0,1,-1,0,77,0);
+}
+
+/*** COLORS ***/
+
+/* Primary */
+
+svg.radial-progress:nth-of-type(6n+1) circle {
+    stroke: rgba(153, 201, 248, 1);
+}
+
+/* Secondary */
+
+svg.radial-progress:nth-of-type(6n+2) circle {
+    stroke: #83e4e2;
+}
+
+/* Tertiary */
+
+svg.radial-progress:nth-of-type(6n+3) circle {
+    stroke: #fd6470;
+}
+
+/* Quaternary */
+
+svg.radial-progress:nth-of-type(6n+4) circle {
+    stroke: #fca858;
+}
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+5) circle {
+    stroke: #fddc32;
+}
+.know-more
+{
+    display: flex;
+    justify-content: center;
+    background-color: #eaf5fb;
+}

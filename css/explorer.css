@@ -1,0 +1,20 @@
+
+    .one .animateBox
+{
+  left:1.5vw;
+    }
+      .two .animateBox
+{
+  left:4vw;
+    }
+    .tree .animateBox
+{
+  left:3vw;
+    }
+svg.radial-progress {
+    height: auto;
+    max-width: 14.38vw;
+    padding: 0 1em;
+    transform: rotate(0deg);
+    width: 100%;
+}

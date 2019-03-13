@@ -1,0 +1,519 @@
+@media all and (max-width: 1600px) {
+    .brightumCore {
+        padding: 10.7vw 6.7vw 0;
+    }
+.infograficOne {
+    padding: 4.5vw 0 7vw;
+}
+    .precise {
+        padding: 9.3vw 6.7vw 14.5vw;
+    }
+
+    .infInfBg {
+        margin-top: 11.6vw;
+    }
+
+    .preciseComposition {
+        top: -3.6vw !important;
+        padding: 0vw 0 0.2vw;
+    }
+
+    .infograficInfImg img {
+        left: -0.5vw;
+        top: -0.85vw;
+    }
+
+    .infograficInfImg img:last-of-type {
+        left: -1.05vw;
+    }
+
+    .infograficInfImg img:first-of-type {
+        left: 0.05vw;
+        top: -0.4vw;
+    }
+
+   
+
+    .blockTwoImg .infograficInfImg img:last-of-type {
+        top: -0.6vw;
+    }
+
+
+    .blockTwoImg .infInfBg {
+        margin-top: 10.2vw;
+    }
+
+    .blockTree {
+    padding: 2.5vw 6.7vw 0!important;
+}
+
+    .coreImg .dotTwo {
+        left: 3.7vw;
+    }
+
+    .coreImg .dotTree {
+        left: 24vw;
+    }
+
+    .dot {
+        left: 1vw;
+    }
+
+    svg.radial-progress text {
+        transform: matrix(0, 1, -1, 0, 78, 0)!important;
+    }
+
+}
+
+@media all and (max-width: 1440px) {
+    .brightumLogoBox {
+        top: 6.2vw;
+    }
+
+    .brightum {
+        padding: 3.4vw 3.32vw;
+    }
+.blockTree {
+    padding: 3.5vw 6.7vw 0!important;
+}
+    .coreImg p:first-of-type {}
+
+    .coreText p,
+    .preciseText p,
+    .boardBottomText p {
+        top: 0.9vw;
+        left: 0.3vw;
+        line-height: 1.85vw;
+
+    }
+
+    .coreImg .dotTwo {
+        left: 3.6vw;
+    }
+
+    .preciseIconI {
+        width: 9.9vw;
+        height: 9.5vw;
+    }
+
+    .preciseIcon {
+        display: flex;
+        flex-direction: row;
+        margin: 0.05vw 0vw 2.8vw;
+    }
+
+    .preciseIcon:last-of-type {
+        margin: 0.1vw 0vw 0vw;
+    }
+
+    .preciseText p {
+        top: 0vw;
+        width: 46vw;
+    }
+
+    .preciseIcon .tree {
+        top: 3.3vw;
+    }
+
+    .preciseIcon .one {
+        top: 3vw;
+    }
+
+    .preciseImg {
+        top: -0.9vw;
+    }
+
+    .infograficOne {
+        padding: 4.5vw 0 8vw;
+    }
+
+    .infoInfText {
+        top: -1.8vw;
+    }
+
+    .infograficInfImg {
+        padding: 1vw 8.8vw;
+        margin-top: 9.9vw;
+    }
+
+    .infograficInfImg img:first-of-type {
+        top: 0.3vw;
+    }
+
+    .infograficInfImg img {
+        top: -0.1vw;
+    }
+
+    .infograficInfImg img:last-of-type {
+       
+        left: -1.1vw;
+    }
+
+    .infograficLeft img {
+        left: -3.9vw;
+        top: 0.7vw;
+    }
+
+    .infoSizeImg {
+        width: 23vw;
+        height: 23vw;
+    }
+
+    .infograficTree {
+        padding: 5.5vw 0 0vw;
+    }
+
+    .blockTreeImg .infoInfText {
+        top: -1.3vw;
+    }
+
+    .blockTreeImg .infograficLeft {
+        top: -4.5vw;
+    }
+
+    .blockTwoImg .infograficLeft label {
+        top: 0.5vw;
+    }
+
+    .blockTwoImg .l label {
+        top: 0.5vw !important;
+        left: 2.3vw !important;
+    }
+
+    .blockTwoImg .infograficLeft div {
+        margin: 0.2vw 0 0 0.3vw;
+    }
+
+    .blockTreeImg .infograficLeft label {
+        left: 1.9vw;
+    }
+
+    .infograficLeft label {
+        top: 0vw;
+    }
+
+    .infograficLeft div img {
+        top: 0.9vw;
+    }
+
+    .blockTwo {
+        top: -0.8vw;
+    }
+
+
+    .blockTwoImg .infograficInfImg img:last-of-type {
+        top: -0.3vw;
+    }
+
+    .blockTwoImg .infograficInfImg {
+        margin-top: 9vw;
+    }
+
+    .blockTwoImg .l label {
+        top: -0.5vw;
+        left: 1.8vw;
+    }
+
+    .blockTree {
+        padding: 2.2vw 6.7vw 0;
+    }
+
+    .blockTreeImg .infograficInfImg {
+        margin-top: 9vw;
+    }
+
+    .blockTreeImg .infograficInfImg img:first-of-type {
+        top: -1vw;
+    }
+
+    .blockTreeImg .infograficInfImg img:last-of-type {
+        top: -0.5vw;
+        left: 7.9vw;
+    }
+
+    .blockTreeImg .infoInfText div {
+        margin: -1.5vw 4.3vw 0 0;
+    }
+
+    .blockTreeImg .infograficLeft {
+        top: -1.9vw;
+    }
+
+    .boardTop p {
+        margin: 2.7vw 0 0 0.7vw;
+    }
+
+    .dotO {
+        top: 4.2vw;
+    }
+
+    .dotT {
+        top: 4.2vw;
+    }
+
+    .dotTr {
+        top: 4.6vw;
+    }
+
+    .coreImg .dotOne {
+        top: 0.8vw;
+        left: 23.55vw;
+    }
+
+    .blockTwoImg .infInfBg {
+        margin-top: 10.2vw;
+    }
+
+    .blockTreeImg .infInfBg {
+        margin-top: 10vw;
+    }
+
+    .boardBottom {
+        padding: 7.3vw 0 0 0vw;
+    }
+
+    .boardBottomText p:first-of-type {
+        left: 0;
+        width: 38vw;
+    }
+
+    .radial-progress p {
+        padding: 1vw 0;
+    }
+
+    svg.radial-progress text {
+      font-size: 1.4vw!important;
+    }
+
+}
+
+@media all and (max-width: 1024px) {
+    .brightumText p {
+        letter-spacing: 0.3px;
+    }
+.blockTree {
+    padding: 6.2vw 6.7vw 0!important;
+}
+    .blockTwoImg .l label {
+    left: 2.5vw!important;
+}
+    .brightumLogo p {
+        padding: 7px 2.2vw 0;
+    }
+
+    .brightumCore {
+        padding: 9.5vw 6.7vw 0;
+    }
+
+    .coreText h5 {
+    }
+
+    .coreText p,
+    .preciseText p,
+    .boardBottomText p {
+
+        letter-spacing: 0.2px;
+    }
+
+    .coreText p:last-of-type {
+        top: 3.1vw;
+    }
+
+    .dotTr {
+        top: 4.6vw;
+    }
+
+    .coreImg .dotOne {
+        top: 1.7vw;
+    }
+
+    .coreImg .dotTwo {
+        top: 7.3vw;
+        left: 3.7vw
+    }
+
+    .coreImg .dotTree {
+        top: -14.6vw;
+        left: 24.2vw;
+    }
+
+    .coreImg img {
+        top: -10.7vw;
+    }
+
+    .coreImg p:first-of-type {
+        top: 1.6vw;
+    }
+
+    .coreImg p:last-of-type {
+        top: 18.5vw;
+    }
+
+    .coreImg p {
+        top: 6.7vw;
+    }
+
+    .coreText {
+        padding-top: 1.2vw;
+    }
+
+    .precise {
+        padding: 9.7vw 6.7vw 12vw;
+    }
+
+    .preciseText h5 {
+        margin-top: 0.3vw;
+    }
+
+    .preciseText p {
+        top: 0vw;
+        width: 49.1vw;
+        left: 0.1vw;
+    }
+
+    .preciseImg {
+        position: relative;
+        top: -0.6vw;
+    }
+
+    .infograficLeft div img {
+
+        height: 3vw;
+    }
+
+    .infograficLeft label {
+        left: 2vw;
+        top: -0.4vw;
+    }
+
+    .infoInfText {
+        top: -1.5vw;
+    }
+
+    .infograficInfImg img {
+        left: -0.6vw;
+    }
+
+    .infograficTree {
+        padding: 1.5vw 0 0vw !important;
+    }
+
+    .blockTreeImg .infograficLeft {
+        top: -2.1vw !important;
+        left: 4.5vw;
+    }
+
+    .blockTreeImg .infograficLeft label {
+        left: 2.2vw;
+    }
+
+    .blockTreeImg .infograficLeft p {
+        top: 1.4vw;
+    }
+
+    .blockTreeImg .infoInfText div {
+        margin: -2vw 4.3vw 0 0;
+    }
+
+    .blockTreeImg .infoInfText div:last-of-type {
+        margin-left: 0vw;
+    }
+
+   
+    .infograficInfImg img:last-of-type {
+       
+        left: 7.8vw!important;
+    }
+    .infograficOne .infograficInfImg img:last-of-type {
+    left: -1.55vw!important;
+}
+
+    .boardBottom {
+        padding: 9.8vw 0 0 0vw;
+    }
+
+    .infografic {
+        top: -1.1vw;
+    }
+
+    .infograficOne {
+        padding: 2.5vw 0 8vw;
+    }
+
+    .blockTwoImg .infoInfText div {
+        margin: -2.2vw 5vw 0 0;
+    }
+
+    .blockTwoImg .infograficInfImg img:last-of-type {
+        top: -0.3vw;
+        left: 7.8vw;
+    }
+
+    .blockTreeImg .infograficInfImg img:first-of-type {
+        top: -1vw;
+    }
+
+    .blockTreeImg .infograficInfImg img:last-of-type {
+        top: -0.5vw;
+        left: 7.9vw;
+    }
+
+    .blockTree {
+        padding: 3.9vw 6.7vw 0;
+    }
+
+    .blockTree p {
+        width: 52vw;
+        ;
+    }
+
+    .blockTreeImg .infoInfText {
+        top: -1vw;
+    }
+
+    .boardBottomText p:first-of-type {
+        margin: 0 0 3.9vw;
+    }
+
+    .boardBottomText label {
+        line-height: 2.2;
+    }
+
+    .boardBottomText p:last-of-type {
+        margin-top: 3.2vw;
+    }
+
+    .boardT {
+        height: 34.6vw;
+    }
+
+    svg.radial-progress text {
+        transform: matrix(0, 1, -1, 0, 79, 0);
+        font-size: 1.8vw!important;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    
+    .desctopScience .menu
+    {
+        display: none;
+    }
+    
+    .coreImg .dotOne {
+        top: 2.6vw;
+        left: 23.7vw;
+    }
+
+    .coreImg .dotTwo {
+        top: 7.4vw;
+        left: 4vw;
+    }
+
+    .coreImg .dotTree {
+        top: -14.4vw;
+        left: 24.4vw;
+    }
+
+}
